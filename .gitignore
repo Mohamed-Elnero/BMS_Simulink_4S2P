@@ -1,29 +1,60 @@
-# MATLAB temporary and autosave files
+# ====================================================================
+# 1. MATLAB & Simulink Temporary / Autosave Files
+# ====================================================================
 *.asv
 *.mat
 *.slxc
 *.mex*
-
-# Simulink cache and code generation directories
 slprj/
 sfprj/
 _continuous_repository/
+resources/project/
 
-# OS generated files
+# ====================================================================
+# 2. Operating System Generated Files
+# ====================================================================
 .DS_Store
 Thumbs.db
-# Ignore local backups from being re-uploaded
-+Batteries*/
+
+# ====================================================================
+# 3. Local Backups & Experimental Models (Kept on PC Only)
+# ====================================================================
+# Folders
++Batteries/
++Batteries1/
++BatteriesLast/
++Batteries_Balancing/
++Batteries_Digital/
++Batteries_Pack/
++Batteries_try/
++Batteriesfiiiiiiinalll/
++Batteriestry1/
 Examples/
-*model_one_upgrade1*
-*_try*
-*fiiiiiiinalll*
-*.original
-*.zip
-*.prj
-*.mlproj
-*.asv
-*.slxc
-slprj/
-sfprj/
-resources/
+
+# Files
+Batteries1_lib.slx
+BatteriesLast_lib.slx
+Batteries_Balancing_lib.slx
+Batteries_Digital_lib.slx
+Batteries_Digital_param.m
+Batteries_Pack.slx
+Batteries_Pack_lib.slx
+Batteries_lib.slx
+Batteries_try.slx
+Batteries_try_lib.slx
+Batteriesfiiiiiiinalll.slx
+Batteriesfiiiiiiinalll_lib.slx
+Batteriesfiiiiiiinalll_param.m
+Batteriestry1_lib.slx
+model_one_upgrade1.slx
+model_one_upgrade2.slx.original
+untitled_Digitalthermal.slx
+Model_Version_one.mlproj
+Model_Version_one.prj
+Model_Version_one1.zip
+
+# ====================================================================
+# 4. Explicit Allowance for Main Project Components
+# ====================================================================
+# Ensure the final core Simscape battery package is ALWAYS tracked
+!+BatteriesLASTNOTLEAST/
