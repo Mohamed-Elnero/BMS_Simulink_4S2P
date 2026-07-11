@@ -22,3 +22,9 @@ Examples/
 *.zip
 *.prj
 *.mlproj
+*.asv
+*.slxc
+slprj/
+sfprj/
+resources/
++*/
