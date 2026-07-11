@@ -12,3 +12,13 @@ _continuous_repository/
 # OS generated files
 .DS_Store
 Thumbs.db
+# Ignore local backups from being re-uploaded
++Batteries*/
+Examples/
+*model_one_upgrade1*
+*_try*
+*fiiiiiiinalll*
+*.original
+*.zip
+*.prj
+*.mlproj
