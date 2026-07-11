@@ -1,0 +1,14 @@
+# MATLAB temporary and autosave files
+*.asv
+*.mat
+*.slxc
+*.mex*
+
+# Simulink cache and code generation directories
+slprj/
+sfprj/
+_continuous_repository/
+
+# OS generated files
+.DS_Store
+Thumbs.db
